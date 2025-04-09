@@ -86,7 +86,7 @@ Add model explainability using SHAP
 Deploy to cloud platforms like AWS/GCP/Heroku
 
 ##  Author
-Rohit Baral
-Master’s Student in Data Science
-GitHub: https://github.com/baralrohit
-LinkedIn:(https://www.linkedin.com/in/rohit-baral-20248b328?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaWBDAdvSdaLiwnPAbiVuA%3D%3D)
+- Rohit Baral
+- Master’s Student in Data Science
+- GitHub: https://github.com/baralrohit
+- LinkedIn:(https://www.linkedin.com/in/rohit-baral-20248b328?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRaWBDAdvSdaLiwnPAbiVuA%3D%3D)
