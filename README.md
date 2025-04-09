@@ -7,8 +7,11 @@ This project is a machine learning-powered Vehicle Price Recommender System buil
 ## Project Overview
 In the used car market, pricing can be highly inconsistent due to various factors such as brand, condition, fuel type, and mileage. This project aims to build a robust regression model to predict vehicle prices accurately. A user-friendly web interface was created where users can input their vehicle specifications and get an estimated price.
 
+## Dataset 
+The dataset used for this project was sourced from Kaggle:
+https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data
 
-## ML_ProjCode-GPNo47.ipynb – Full project code including EDA, preprocessing, modeling, and evaluation.
+## code.ipynb – Full project code including EDA, preprocessing, modeling, and evaluation.
 
 app.py – Flask web application for deployment.
 
@@ -21,72 +24,57 @@ Cleaned_Car_data.csv – Dataset used to populate dropdowns in the web interface
 ## Skills & Tools Used
 Programming: Python
 
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
+- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
 
-Machine Learning: Random Forest Regressor, K-Nearest Neighbors, XGBoost, Linear Regression
+- Machine Learning: Random Forest Regressor, K-Nearest Neighbors, XGBoost, Linear Regression
 
-Data Preprocessing: Label Encoding, One-Hot Encoding, Feature Scaling, Missing Value Imputation
+- Data Preprocessing: Label Encoding, One-Hot Encoding, Feature Scaling, Missing Value Imputation
 
-Model Evaluation: RMSE, MAE, R² Score, Cross-validation
+- Model Evaluation: RMSE, MAE, R² Score, Cross-validation
 
-Deployment: Flask Web Framework
+- Deployment: Flask Web Framework
 
-Version Control: Git & GitHub
+- Version Control: Git & GitHub
 
 ## Machine Learning Workflow
-Data Cleaning & Preprocessing
+1. Data Cleaning & Preprocessing
+- Handled missing values and removed irrelevant columns
 
-Handled missing values and irrelevant columns
+- Created new features (e.g., car_age)
 
-Created new features (e.g., car_age)
+- Encoded categorical variables and scaled numerical ones using pipelines
 
-Encoded categorical variables and scaled numerical ones
+2. Model Training & Tuning
+- Trained multiple regression models: Random Forest, KNN, and XGBoost
 
-Model Training & Tuning
+- Performed hyperparameter tuning for model optimization
 
-Trained multiple models (Random Forest, KNN, XGBoost)
+- Selected the best-performing model based on evaluation metrics
 
-Hyperparameter tuning for model optimization
+3. Model Deployment
+- Built a user-friendly web interface using Flask
 
-Final model selection based on performance
+- Preprocessed user input using the saved preprocessor pipeline
 
-Model Deployment
-
-Built a Flask app to make predictions via a user interface
-
-Preprocessed user input using saved pipeline
-
-Deployed the trained model for real-time predictions
+- Deployed the trained model for real-time price predictions
 
 ## 🖥How to Run This Project Locally
 Clone the repo:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/vehicle-price-recommender.git
+- git clone https://github.com/your-username/vehicle-price-recommender.git
 cd vehicle-price-recommender
-Install dependencies:
 
-bash
-Copy
-Edit
+- nstall dependencies:
+
 pip install -r requirements.txt
+
 Ensure the following files are in the directory:
 
-final_random_forest_model.pkl
+- final_random_forest_model.pkl
 
-preprocessor.pkl
+- preprocessor.pkl
 
-Cleaned_Car_data.csv
-
-Run the Flask app:
-
-bash
-Copy
-Edit
-python app.py
-Open your browser and go to http://127.0.0.1:5000/.
+- Cleaned_Car_data.csv
 
 ## Future Enhancements
 Add support for additional vehicle features
