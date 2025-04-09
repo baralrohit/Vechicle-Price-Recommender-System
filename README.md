@@ -1,14 +1,14 @@
-🚗 Vehicle Price Recommender System
+# 🚗 Vehicle Price Recommender System
 
 
 This project is a machine learning-powered Vehicle Price Recommender System built using Python and deployed via a Flask web application. It predicts the price of used cars based on various user inputs like manufacturer, fuel type, condition, and more.
-
-🔍 Project Overview
+            
+            
+## Project Overview
 In the used car market, pricing can be highly inconsistent due to various factors such as brand, condition, fuel type, and mileage. This project aims to build a robust regression model to predict vehicle prices accurately. A user-friendly web interface was created where users can input their vehicle specifications and get an estimated price.
 
 
-📁 Files in This Repo
-PRML_ProjCode-GPNo47.ipynb – Full project code including EDA, preprocessing, modeling, and evaluation.
+## ML_ProjCode-GPNo47.ipynb – Full project code including EDA, preprocessing, modeling, and evaluation.
 
 app.py – Flask web application for deployment.
 
@@ -18,7 +18,7 @@ preprocessor.pkl – Pipeline object with all preprocessing steps (scaling, enco
 
 Cleaned_Car_data.csv – Dataset used to populate dropdowns in the web interface.
 
-🧠 Skills & Tools Used
+## Skills & Tools Used
 Programming: Python
 
 Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
@@ -33,7 +33,7 @@ Deployment: Flask Web Framework
 
 Version Control: Git & GitHub
 
-📊 Machine Learning Workflow
+## Machine Learning Workflow
 Data Cleaning & Preprocessing
 
 Handled missing values and irrelevant columns
@@ -58,7 +58,7 @@ Preprocessed user input using saved pipeline
 
 Deployed the trained model for real-time predictions
 
-🖥️ How to Run This Project Locally
+## 🖥How to Run This Project Locally
 Clone the repo:
 
 bash
@@ -88,7 +88,7 @@ Edit
 python app.py
 Open your browser and go to http://127.0.0.1:5000/.
 
-✨ Future Enhancements
+## Future Enhancements
 Add support for additional vehicle features
 
 Implement a dashboard to visualize feature importance
@@ -97,7 +97,7 @@ Add model explainability using SHAP
 
 Deploy to cloud platforms like AWS/GCP/Heroku
 
-🙋‍♂️ Author
+##  Author
 Rohit Baral
 Master’s Student in Data Science
 GitHub: https://github.com/baralrohit
