@@ -1,4 +1,6 @@
 🚗 Vehicle Price Recommender System
+
+
 This project is a machine learning-powered Vehicle Price Recommender System built using Python and deployed via a Flask web application. It predicts the price of used cars based on various user inputs like manufacturer, fuel type, condition, and more.
 
 🔍 Project Overview
